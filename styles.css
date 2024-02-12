@@ -259,6 +259,16 @@
     border-radius: 8px;
     cursor: pointer;
     margin-left: 124px;
+    width: 106px
+
+
+
+
+  }
+  .tools-list-btn:hover {
+    background: rgba(255, 110, 48, 1);
+    color: rgba(255, 255, 255, 1);
+
   }
   .list-add-container-img {
     width: 28px;
@@ -323,6 +333,7 @@
   .section-newcomer {
     display: flex;
     margin-bottom: 200px;
+    justify-content: center;
   }
   .newcomer-title-list {
     width: 427px;
@@ -365,6 +376,7 @@
   .section-response {
     display: flex;
     padding-left: 300px;
+    justify-content: center;
   }
   .section-response-text {
     color: var(--general-font-color);
@@ -489,4 +501,17 @@
   }
   .nav-footer-title {
     padding-bottom: 20px;
+  }
+  .list-add-container-img-like{
+    width: 30px;
+height: 30px;
+background-image: url(img/Vector\ \(1\).svg);
+background-repeat:
+no-repeat;
+background-position: center;
+background-color: transparent;
+border: none;
+  }
+  .list-add-container-img-like:hover{
+    background-image:url(img/Vector.svg) ;
   }
